@@ -47,13 +47,14 @@ public class TennisCoach implements Coach {
 	public void doMyCleanUpStuff() {
 		System.out.println(">> TennisCoach: inside of doMyCleanUpStuff()");
 	}
+	@Override
 	public String getDailyWorkout() {
 		System.out.println("Name is: " + name);
 		System.out.println("Email is: " + email);
 		return "Practice your backhand volley";
 		
 	}
-
+	@Override
 	public String getDailyFortune() {
 		// TODO Auto-generated method stub
 		return fortuneService.getFortune();

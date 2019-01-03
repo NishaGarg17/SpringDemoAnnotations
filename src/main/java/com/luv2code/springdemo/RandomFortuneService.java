@@ -13,6 +13,7 @@ public class RandomFortuneService implements FortuneService {
 	};
 	
 	Random random = new Random();
+	@Override
 	public String getFortune() {
 		int index = random.nextInt(data.length);	
 		return data[index];
