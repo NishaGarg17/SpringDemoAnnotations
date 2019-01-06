@@ -6,8 +6,7 @@ import com.luv2code.config.SportConfig;
 
 public class JavaConfigDemoApp {
 	public static void main(String[] args) {
-		// ClassPathXmlApplicationContext context = new
-		// ClassPathXmlApplicationContext("applicationContext.xml");
+		//Read the spring config file
 		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(SportConfig.class);
 		// get the bean from spring container
 		Coach theCoach = context.getBean("tennisCoach", Coach.class);

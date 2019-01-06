@@ -22,7 +22,7 @@ public class TennisCoach implements Coach {
 	@Qualifier("randomFortuneService")
 	private FortuneService fortuneService;
 	
-/*	@Autowired
+	/*@Autowired
 	public TennisCoach(FortuneService theFortuneService) {
 		fortuneService = theFortuneService;
 	}*/
@@ -31,7 +31,7 @@ public class TennisCoach implements Coach {
 		System.out.println(">> Inside Default Constructor");
 
 	}
-/*	@Autowired
+	/*@Autowired
 	public void setFortuneService(FortuneService theFortuneService) {
 		System.out.println(">> Inside Setter Method setFortuneService");
 		fortuneService = theFortuneService;

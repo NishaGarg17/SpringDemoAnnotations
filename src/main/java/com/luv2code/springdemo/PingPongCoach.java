@@ -13,7 +13,7 @@ public class PingPongCoach implements Coach {
 	
 	// define a default constructor
 	public PingPongCoach() {
-		System.out.println(">> PingPongCoach: inside default constructor");
+		//System.out.println(">> PingPongCoach: inside default constructor");
 	}
 	@Override
 	public String getDailyWorkout() {

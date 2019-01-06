@@ -20,10 +20,6 @@ public class FileFortuneService implements FortuneService{
 		
 		
 		File file = new File("E:\\Data\\Spring\\Sts-Project-Resource\\fortune-data.txt");
-		
-		System.out.println("Reading fortunes from file: " + file);
-		System.out.println("File exists: " + file.exists());
-		
 		try {
 			String tempLine;
 			BufferedReader br = new BufferedReader(new FileReader(file));
